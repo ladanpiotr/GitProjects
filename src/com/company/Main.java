@@ -19,6 +19,8 @@ public class Main {
         Person p3 = new Person("Włodek", "Petersburg", 67);
         System.out.println(p3.toString());
 
+        Car c1 = new Car("Alfa Romeo", 5);
+
 
     }
 
