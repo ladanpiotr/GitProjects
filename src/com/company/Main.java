@@ -21,6 +21,9 @@ public class Main {
 
         Car c1 = new Car("Alfa Romeo", 5);
 
+        Potwory pot1 = new Potwory("Karuk", "Protonietoperz", 6,4);
+        System.out.println(pot1.toString());
+
 
     }
 
