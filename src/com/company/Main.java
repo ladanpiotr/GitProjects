@@ -9,8 +9,16 @@ public class Main {
         System.out.println("hello world");
         System.out.println("something else");
         System.out.println("Another change as this programme is freaking awesome");
+
+        Person p1 = new Person("Kazik", "Warszawa", 56);
+        Person p2 = new Person("Maryla", "Zza Stodoły", 23);
+
+        System.out.println(p1.toString());
+        System.out.println(p2.toString());
+
+
     }
 
-    Person p1 = new Person("Kazik", "Warszawa", 56);
+
 
 }
